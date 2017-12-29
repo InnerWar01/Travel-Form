@@ -1,0 +1,113 @@
+body {
+	background-color: rgb(250, 243, 237);
+	line-height: 200%;
+}
+
+legend {
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-size: 150%;
+	font-weight: bold;
+	color: #4f4f4f;
+}
+
+.check {
+	width: 20%;
+}
+
+.error {
+	color: red;
+	float: left;
+}
+
+#sum_img {
+	color: transparent;
+	font-size: 0;
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+}
+
+#sum_container {
+	position: relative;
+	margin: 0 25% 0 25%;
+	width: 50%;
+	box-shadow: 1px 0 11px rgba(50, 50, 50, 0.74);
+}
+
+#sum_content {
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	position: relative;
+}
+
+#book {
+	margin-bottom: 5%;
+	margin-right: 2%;
+	margin-top: 5%;
+	background-color: #80b3ff;
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	font-size: 150%;
+	cursor: pointer;
+	width: 60%;
+}
+
+#book:hover {
+	background-color: #8585e0;
+	border: 3px solid #8585e0;
+}
+
+input, select {
+	font-family: 'Source Sans Pro';
+	border: 3px solid #80b3ff;
+	width: 96%;
+	padding-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+input:focus, select:focus {
+	border: 3px solid #8585e0;
+}
+
+select {
+	width: 100%;
+}
+
+h3 {
+	text-align:center;
+	color: #4f4f4f;
+}
+
+span {
+	font-weight: bold;
+}
+
+h4 {
+	padding: 5%;
+	text-align: center;
+	color: #4f4f4f;
+	font-style: italic;
+}
+
+* {
+	font-family: 'Source sans Pro';
+	font-size: 16px;
+}
+
+#table {
+	padding: 5% 0 5% 0;
+}
+
+table, th, td {
+	border: 2px solid #8585e0;
+	border-radius: 4px;
+}
+
+th, td {
+	padding: 1%;
+}
