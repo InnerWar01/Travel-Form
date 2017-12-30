@@ -11,7 +11,7 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DataBaseForm</title> 
-	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>\assets\css\form.css">
 </head>
 
 <body>
@@ -19,8 +19,8 @@
 <?php
 
 			$servername = "localhost";
-			$username = "root";
-			$password = "1991";
+			$username = "#";
+			$password = "#";
 			$dbname = "travel_agency";
 
 			// Create connection
@@ -105,7 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 		$_SESSION['tel'] = $_POST['tel'];
 		$_SESSION['budget'] = $_POST['budget'];
 		$_SESSION['quantity'] = $_POST['quantity'];
-		header('Location: ..\DB_form_resp.php');
+		header('Location: DB_form_resp.php');
 	}
 }
 
@@ -120,7 +120,7 @@ function test_input($data) {
 <div id="form_container">
 
 <div id="formHeader">
-	<img id="form_img" src="DB_Europe_Banner.gif" alt="Image formulaire">
+	<img id="form_img" src="<?php require "path.php";?>\assets\img\DB_Europe_Banner.gif" alt="Image formulaire">
 </div>
 
 <div id="form-content">

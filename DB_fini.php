@@ -10,7 +10,7 @@
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Résumé</title> 
-	<link rel="stylesheet" href="DB_fini.css">
+	<link rel="stylesheet" href="<?php require "path.php";?>\assets\css\DB_fini.css">
 </head>
 
 <body>
@@ -20,15 +20,15 @@
 		La feuille récapitulative vous sera envoyé sur votre messagerie. 
 		On vous remercie de nous choisir et on vous souhaite un très bon sejour.</h4>
 	<div id="container-img">
-		<img id="fin_img" src="DB_quote.jpg" alt="Image travel">
+		<img id="fin_img" src="<?php require "path.php";?>\assets\img\DB_quote.jpg" alt="Image travel">
 	</div>
 </div>
 
 <?php
 
 	$servername = "localhost";
-	$username = "root";
-	$password = "1991";
+	$username = "#";
+	$password = "#";
 	$dbname = "travel_agency";
 
 	// Create connection
