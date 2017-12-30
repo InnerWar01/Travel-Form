@@ -9,4 +9,4 @@ For a detailed description check Travel_Agency_en.pdf or Agence_de_Voyage_fr.pdf
     - DB_form_resp1.php
     - DB_fini.php
 
-3) Test the website on localhost starting with Home_Page.php
+3) Test the website on localhost starting with DB_form.php
